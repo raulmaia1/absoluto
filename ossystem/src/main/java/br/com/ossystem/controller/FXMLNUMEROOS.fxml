@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="203.0" prefWidth="372.0" styleClass="material-alert-fundo" stylesheets="@material.css" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.ossystem.controller.ControllerOSNumero">
+   <center>
+      <BorderPane prefHeight="194.0" prefWidth="437.0" BorderPane.alignment="CENTER">
+         <top>
+            <GridPane prefHeight="132.0" prefWidth="372.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="213.0" minWidth="10.0" prefWidth="22.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="397.0" minWidth="10.0" prefWidth="338.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="397.0" minWidth="10.0" prefWidth="15.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="151.0" minHeight="10.0" prefHeight="63.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="150.0" minHeight="10.0" prefHeight="69.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <HBox prefHeight="102.0" prefWidth="337.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <Label fx:id="labelNumero" text="Numero" textAlignment="CENTER">
+                           <font>
+                              <Font name="Roboto Regular" size="29.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#fffdfd" />
+                                    <Stop color="WHITE" offset="0.4777817276928546" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <Label text="Sequência Gerada">
+                           <font>
+                              <Font name="Roboto Black" size="30.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop color="#fffdfd" />
+                                    <Stop color="WHITE" offset="0.4777817276928546" />
+                                    <Stop color="WHITE" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </GridPane>
+         </top>
+         <bottom>
+            <HBox alignment="CENTER_RIGHT" prefHeight="66.0" prefWidth="372.0" spacing="5.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#apertaOk" prefHeight="45.0" prefWidth="102.0" styleClass="material-button-transparent" text="OK">
+                     <font>
+                        <Font name="Roboto Regular" size="23.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </center>
+</BorderPane>

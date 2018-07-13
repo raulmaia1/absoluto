@@ -1,0 +1,40 @@
+
+.azulejo-presets{
+	-fx-fill: linear-gradient(#AD1457,#AD1457,#AD1457);
+}
+
+.azulejo-ordem{
+	-fx-fill: linear-gradient(#6A1B9A,#6A1B9A,#6A1B9A);
+
+}
+
+.azulejo-cliente{
+	-fx-fill: linear-gradient(#00695C,#00695C,#00695C);
+
+}
+
+.azulejo-ordem:hover{
+	-fx-fill: linear-gradient(#4A148C,#4A148C,#4A148C);
+}
+
+.azulejo-presets:hover{
+	-fx-fill: linear-gradient(#880E4F,#880E4F,#880E4F);
+}
+
+.azulejo-cliente:hover{
+	-fx-fill: linear-gradient(#004D40,#004D40,#004D40);
+}
+
+.label-azulejo{
+	-fx-text-fill : linear-gradient(#FAFAFA,#FAFAFA,#FAFAFA);
+	-fx-font-size: 18.0 pt;
+	-fx-font-family: Roboto;
+}
+
+.retangulo-drag{
+	-fx-alignment: center ;
+    -fx-padding: 10 ;
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url("icone/adicionar.png");
+	-fx-background-color: transparent;
+}

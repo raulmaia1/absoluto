@@ -1,0 +1,89 @@
+.botao-cliente {
+	-fx-text-fill : linear-gradient(#FFFFFF,#FFFFFF,#FFFFFF);
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url("icone/ic_people_white_24dp.png");
+	-fx-background-color: transparent;
+	-fx-background-position: center center;
+}
+
+.botao-voltar {
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url("icone/voltar.png");
+	-fx-background-color: transparent;
+	-fx-font-fill: #FFFFFF;
+}
+
+.botao-produto {
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url("icone/ic_folder_white_24dp.png");
+	-fx-background-color: transparent;
+	-fx-font-fill: #FFFFFF;
+	-fx-background-position: center center;
+	
+}
+
+
+.botao-novo {
+	-fx-text-fill : linear-gradient(#FFFFFF,#FFFFFF,#FFFFFF);
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url("icone/ic_insert_drive_file_white_24dp.png");
+	-fx-background-color: transparent;
+	-fx-background-position: center center;
+}
+
+.botao-voltar:hover{
+		-fx-background-color: #263238;
+}
+
+.botao-salvar{
+	-fx-background-color: linear-gradient(#1B5E20, #1B5E20, #1B5E20);
+	-fx-text-fill: #FFFFFF;
+}
+
+.botao-servico{	
+	-fx-background-color: linear-gradient(#4E342E, #4E342E, #4E342E);
+	-fx-text-fill: #FFFFFF;
+}
+.fundo {
+	-fx-base: #EFEBE9;
+	-fx-background-image: url("icone/padrao.png");
+}
+
+.painel-esquerdo {
+	-fx-background-color: linear-gradient(#212121, #212121, #212121);
+}
+
+.label-principal {
+	-fx-font-size: 30.0pt;
+	-fx-font-family: "SansSerif";
+}
+
+.texto{	
+	-fx-highlight-fill: lightgray;
+	-fx-highlight-text-fill: firebrick;
+	-fx-font-size: 20.0px;
+}
+
+.botao-proximo{
+	-fx-background-color: linear-gradient(#3E2723 , #3E2723, #3E2723);
+	-fx-font-size: 16.0px;
+	-fx-text-fill : linear-gradient(#FFFFFF,#FFFFFF,#FFFFFF);
+}
+
+.labelsecundario-principal {
+	-fx-font-size: 27.0pt;
+	-fx-font-family: "SansSerif";
+	-fx-text-fill :#FFFFFF;
+}
+
+.labelsecundario-secundario {
+	-fx-font-size: 12.0pt;
+	-fx-font-family: "SansSerif";
+	-fx-text-fill :#FFFFFF;
+}
+
+.label-topo{
+	-fx-font-size: 27.0pt;
+	-fx-font-family: "SansSerif";
+	-fx-text-fill : linear-gradient(#bf360c,#bf360c,#bf360c);
+}

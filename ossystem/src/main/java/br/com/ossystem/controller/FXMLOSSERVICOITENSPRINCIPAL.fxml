@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="738.0" styleClass="material-fundo" stylesheets="@material.css" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.ossystem.controller.ControllerOsServicoItensPrincipal">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="78.0" prefWidth="594.0" styleClass="material-topo-azul" BorderPane.alignment="CENTER">
+         <children>
+            <Label styleClass="material-label-gigante" text="Serviços e Itens" />
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding></HBox>
+   </top>
+   <center>
+      <VBox fx:id="viewItens" prefHeight="200.0" prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets top="10.0" />
+         </padding></VBox>
+   </center>
+   <left>
+      <BorderPane prefHeight="426.0" prefWidth="33.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox alignment="BOTTOM_CENTER" prefHeight="426.0" prefWidth="88.0" spacing="4.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#apertouAbrirConsultaServico" prefHeight="58.0" prefWidth="61.0" styleClass="material-button-pesquisa-vermelho" />
+            <Button fx:id="buttonAdiciona" mnemonicParsing="false" onAction="#apertouAbrirAdicionaServico" onMousePressed="#apertouAdicionar" prefHeight="69.0" prefWidth="72.0" styleClass="material-button-adiciona">
+               <contextMenu>
+                  <ContextMenu fx:id="contextMenu">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#apertouAbrirAdicionaServico" text="Serviços" />
+                        <MenuItem mnemonicParsing="false" text="Itens" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu></Button>
+         </children>
+         <padding>
+            <Insets bottom="30.0" />
+         </padding>
+      </VBox>
+   </right>
+</BorderPane>

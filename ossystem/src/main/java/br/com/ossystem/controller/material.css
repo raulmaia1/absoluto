@@ -1,0 +1,161 @@
+.root{
+	-fx-font-family: "Roboto";
+}
+
+.material-topo-azul{
+	-fx-background-color: linear-gradient(#2196F3, #2196F3, #2196F3);
+}
+
+.material-label-gigante{
+	-fx-text-fill : linear-gradient(#FAFAFA,#FAFAFA,#FAFAFA);
+	-fx-font-size: 30.0 pt;
+}
+
+.material-label-normal{
+	-fx-text-fill : linear-gradient(#FAFAFA,#FAFAFA,#FAFAFA);
+	-fx-font-size: 20.0 pt;
+}
+
+.material-label-gigante-preto{
+	-fx-text-fill : linear-gradient(#424242,#424242,#424242);
+	-fx-font-size: 30.0 pt;
+}
+
+.material-label-normal-preto{
+	-fx-text-fill : linear-gradient(#424242,#424242,#424242);
+	-fx-font-size: 20.0 pt;
+}
+
+.material-fundo{	
+	-fx-background-color: linear-gradient(e6e6e6ff 10%, e6e6e6ff 10%, e6e6e6ff 10%);
+}
+
+.material-textfield-azul-obrigatorio{
+	-fx-background-color:transparent;
+	-fx-border-color: linear-gradient(#FF6F00,#FF6F00,#FF6F00);
+	-fx-border-width: 0 0 1 0;
+	-fx-font-size: 13.0 pt;
+}
+
+.material-textfield-branco-obrigatorio{
+	-fx-background-color:transparent;
+	-fx-border-color: linear-gradient(#FFFFFF,#FFFFFF,#FFFFFF);
+	-fx-border-width: 0 0 1 0; 
+	-fx-text-fill : linear-gradient(#FFFFFF,#FFFFFF,#FFFFFF);
+	-fx-font-size: 13.0 pt;
+}
+
+.material-textfield-azul-opcional{
+	-fx-background-color: transparent;
+	-fx-border-color: linear-gradient(#0D47A1,#0D47A1,#0D47A1);
+	-fx-border-width: 0 0 1 0; 
+	-fx-font-size: 13.0 pt;
+}
+
+.material-button-azul-salvar{
+	-fx-background-color: linear-gradient(#0D47A1,#0D47A1,#0D47A1);
+	-fx-border-color: transparent;
+	-fx-font-size: 20.0 pt;
+	-fx-text-fill : linear-gradient(#FAFAFA,#FAFAFA,#FAFAFA);
+	-fx-border-width: 0 0 0 0;
+}
+
+.material-button-adiciona{
+	-fx-background-image: url("icone/material-icon-2155448_960_720.png");
+	-fx-background-color: transparent;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 150px;
+	-fx-background-position: center center;
+	
+}
+
+.material-button-finalizar {
+	-fx-background-image: url("icone/ic_beenhere_white_24dp.png");
+	-fx-background-color: linear-gradient(#B71C1C,#B71C1C,#B71C1C);
+	
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-background-radius: 45 45 45 45;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0 , 0 , 1)
+	
+}
+
+.material-button-servico{
+	-fx-background-image: url("icone/ic_build_white_24dp.png");
+	-fx-background-color: linear-gradient(#1B5E20,#1B5E20,#1B5E20);
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-background-radius: 45 45 45 45;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0 , 0 , 1)
+	
+}
+
+.material-topo-roxo{
+	-fx-background-color: linear-gradient(#9C27B0 10%, #9C27B0 10%, #9C27B0 10%);	
+}
+
+.material-alert-fundo{
+	-fx-background-color: linear-gradient(#009688 10%, #009688 10%, #009688 10%);	
+}
+
+.material-button-transparent{
+	-fx-background-color: transparent;
+}
+
+.material-topo-preto{
+	-fx-background-color: linear-gradient(#212121 10%, #212121 10%, #212121 10%);	
+}
+
+.material-topo-pesquisa{
+	-fx-background-color: linear-gradient(fafafaff 10%, fafafaff 10%, fafafaff 10%);	
+}
+
+.material-button-pesquisa{
+	-fx-background-image: url("icone/search.png");
+	-fx-background-color: transparent;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-background-radius: 45 45 45 45;
+}
+
+.material-button-pesquisa-vermelho{
+	-fx-background-image: url("icone/ic_find_in_page_white_24dp.png");
+	-fx-background-color: linear-gradient(#D32F2F,#D32F2F,#D32F2F);
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-background-radius: 45 45 45 45;
+}
+
+.material-textfield-pesquisa{
+	-fx-background-color: transparent;
+	-fx-border-color: linear-gradient(#0D47A1,#0D47A1,#0D47A1);
+	-fx-border-width: 0 0 0 0; 
+	-fx-font-size: 15.0px;
+}
+
+.material-card-pesquisa-branco{
+	-fx-fill: linear-gradient(fafafaff 10%, fafafaff 10%, fafafaff 10%);	
+}
+
+.material-card-pesquisa-selecionado-branco{
+	-fx-fill: linear-gradient(fafafaff 10%, fafafaff 10%, fafafaff 10%);	
+}
+
+
+.material-card-pesquisa-branco:hover{
+	-fx-fill: linear-gradient(#FFFFFF 10%, #FFFFFF 10%, #FFFFFF 10%);	
+}
+
+.material-button-salvar{
+	-fx-background-image: url("icone/ic_check_white_24dp.png");
+	-fx-background-color: transparent;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-background-radius: 45 45 45 45;
+	-fx-arc-height:5;
+	-fx-arc-width:5;
+}
+
+.material-button-salvar:hover{
+	-fx-background-color: linear-gradient(#7B1FA2 10%, #7B1FA2 10%, #7B1FA2 10%);	
+}
